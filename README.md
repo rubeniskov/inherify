@@ -30,7 +30,7 @@ To use, add the `require` node module:
 
     const Inherify = require('inherify');
 
-    const CustomError = utils.inherits(Error, {
+    const CustomError = Inherify(Error, {
         __constructor: function(settings) {
             settings = typeof(settings) === 'string' ? {
                 message: settings

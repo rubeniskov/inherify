@@ -3,13 +3,15 @@
   "version": "0.0.1",
   "description": "Inherify is a function constructor to make easy and clean inherits prototypes.",
   "main": "index.js",
-  "engines" : {
-    "node" : ">=0.12"
+  "engines": {
+    "node": ">=0.12"
   },
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "util-extend": "^1.0.3"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "codecov": "^1.0.1",

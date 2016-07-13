@@ -19,7 +19,7 @@
     "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec && node_modules/codecov/bin/codecov"
+    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec && if [[ $TRAVIS ]]; then node_modules/codecov/bin/codecov; fi"
   },
   "repository": {
     "type": "git",

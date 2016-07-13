@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
     "codecov": "^1.0.1",
     "grunt": "^1.0.1",
     "grunt-bump": "^0.8.0",

@@ -1,6 +1,6 @@
 {
   "name": "inherify",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Inherify is a function constructor to make easy and clean inherits prototypes.",
   "main": "index.js",
   "engines": {
